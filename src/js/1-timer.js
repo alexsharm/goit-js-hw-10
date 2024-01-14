@@ -24,17 +24,13 @@ const options = {
         class: 'error-alert',
         message: 'Please choose a date in the future',
         close: true,
-        iconUrl: '../icons/x-octagon.svg',
+        iconUrl: './icons/x-octagon.svg',
         position: 'topRight',
         backgroundColor: '#ef4040',
         messageColor: '#FFF',
         messageLineHeight: '150%',
         messageSize: '16px',
       });
-      //   const timerId = setTimeout(
-      //     () => window.alert('Please choose a date in the future'),
-      //     25
-      //   );
     } else {
       startBtn.classList.add('active-btn');
       userSelectedDate = selectedDates[0];
