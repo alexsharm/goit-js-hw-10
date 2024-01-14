@@ -24,7 +24,6 @@ const options = {
         class: 'error-alert',
         message: 'Please choose a date in the future',
         close: true,
-        iconUrl: './icons/x-octagon.svg',
         position: 'topRight',
         backgroundColor: '#ef4040',
         messageColor: '#FFF',
